@@ -21,6 +21,8 @@ a {
 }
 .top {
     position: relative;
+    /* box-sizing: border-box; */
+    height: auto;
 }
 .top__img  img {
     display: block;
@@ -32,20 +34,20 @@ a {
     right: 0;
     z-index: 0;
 }
-.top__heading__text {
+.top__heading{
     position: absolute;
-    top: 350px;
+    top: 55vh;
     left: 0;
+    width: 100%;
+    z-index: -10;
+}
+.top__heading__text {
     font-size: 50px;
     font-weight: lighter;
 }
 .top__heading__box {
-    position: absolute;
-    top: 400px;
-    left: 0px;
     width: 70%;
-    height: 150px;
+    height: 200px;
     margin-bottom: 50px;
     background: rgb(7, 7, 148);
-    z-index: -10;
 }
